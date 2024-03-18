@@ -1,6 +1,7 @@
 import './App.css';
 import Something from './components/Something';
-// import Another from './components/Another';
+
+// import LangClientPrac from './components/LangClientPrac';
 
 
 function App() {
