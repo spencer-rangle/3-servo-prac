@@ -4,6 +4,8 @@ import Something from './components/Something';
 
 
 function App() {
+  const theNumb = 89;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Something someNumb={theNumb} />
       </header>
     </div>
   );
